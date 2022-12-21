@@ -1,0 +1,1518 @@
+{
+	"info": {
+		"_postman_id": "e5ccc609-9acd-404c-a829-bfd942b5bfd1",
+		"name": "PCmaker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24064214"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "With ID",
+					"item": [
+						{
+							"name": "CPU",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/cpu/2",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"cpu",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GPU",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/gpu/1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"gpu",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "MotherBoard",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/motherboard/1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"motherboard",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Case",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/case/1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"case",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "SSD",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/ssd/1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"ssd",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Power",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/power/1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"power",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "HDD",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/hdd/1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"hdd",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "RAM",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/ram/1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"ram",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"description": "وقتی میخوایی با id چیزی رو بگیری میتونی از اینا استفاده کنی"
+				},
+				{
+					"name": "All Data",
+					"item": [
+						{
+							"name": "CPU",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/cpu",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"cpu"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GPU",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/gpu",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"gpu"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "MotherBoard",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/motherboard",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"motherboard"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Case",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/case",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"case"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "SSD",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/ssd",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"ssd"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Power",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/power",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"power"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "HDD",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/hdd",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"hdd"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "RAM",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/ram",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"ram"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"description": "ایا هممه ی لیست قطعات رو بهت میدن البته هر قطعه جدا هست"
+				},
+				{
+					"name": "test",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000"
+						},
+						"description": "این فقط واسه تسته که ببینی سرور وصل هست یا نه"
+					},
+					"response": []
+				}
+			],
+			"description": "واضحه دیگه که get چیکار میکنه:) فقط در مورد عکس ها.چون واسه اینکه هرجایی بشه استفاده کرد لینک کامل ندادم اگر خودت بتونی ادامه ی لینک تا رسیدن به فولدر مخصوص عکس های اون قطعه رو بنویسی اوکیه تا imagesیی که توی node/pcmaker هست."
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "CPU",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/cpu?en_name=Intel Core i5 10400f&fa_name=پردازنده ی اینتل مدل core i5 10400f&company=Intel&cpu_socket=LGA-1200&haveGPU=1&benchmark=12369&showIMG=CPU/i5-10400f-Show.png&smallIMG=CPU/i5-10400f-Small.png&price=3,778,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cpu"
+							],
+							"query": [
+								{
+									"key": "en_name",
+									"value": "Intel Core i5 10400f"
+								},
+								{
+									"key": "fa_name",
+									"value": "پردازنده ی اینتل مدل core i5 10400f"
+								},
+								{
+									"key": "company",
+									"value": "Intel"
+								},
+								{
+									"key": "cpu_socket",
+									"value": "LGA-1200"
+								},
+								{
+									"key": "haveGPU",
+									"value": "1"
+								},
+								{
+									"key": "benchmark",
+									"value": "12369"
+								},
+								{
+									"key": "showIMG",
+									"value": "CPU/i5-10400f-Show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "CPU/i5-10400f-Small.png"
+								},
+								{
+									"key": "price",
+									"value": "3,778,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MotherBoard",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/motherboard?en_name=Asus MotherBoard PRIME H310M-K&fa_name=مادربرد ایسوس مدل PRIME H310M-K&company=Asus&ramSupportCount=32&ramTypes=4&ramFrequency=2133&cpuSocket=LGA-1151&chipset=H310&formFactor=microATX&ramSluts=2&m2Sluts=0&MBsataNum=3&showIMG=motherboard/Asus-H310-Show.png&smallIMG=motherboard/Asus-H310-Small.png&price=1,628,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motherboard"
+							],
+							"query": [
+								{
+									"key": "en_name",
+									"value": "Asus MotherBoard PRIME H310M-K"
+								},
+								{
+									"key": "fa_name",
+									"value": "مادربرد ایسوس مدل PRIME H310M-K"
+								},
+								{
+									"key": "company",
+									"value": "Asus"
+								},
+								{
+									"key": "ramSupportCount",
+									"value": "32"
+								},
+								{
+									"key": "ramTypes",
+									"value": "4"
+								},
+								{
+									"key": "ramFrequency",
+									"value": "2133"
+								},
+								{
+									"key": "cpuSocket",
+									"value": "LGA-1151"
+								},
+								{
+									"key": "chipset",
+									"value": "H310"
+								},
+								{
+									"key": "formFactor",
+									"value": "microATX"
+								},
+								{
+									"key": "ramSluts",
+									"value": "2"
+								},
+								{
+									"key": "m2Sluts",
+									"value": "0"
+								},
+								{
+									"key": "MBsataNum",
+									"value": "3"
+								},
+								{
+									"key": "showIMG",
+									"value": "motherboard/Asus-H310-Show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "motherboard/Asus-H310-Small.png"
+								},
+								{
+									"key": "price",
+									"value": "1,628,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GPU",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/gpu?en_name=Asus TUF-GTX1660Ti&fa_name=کارت گرافیک ایسوس TUF GeForce GTX1660Ti&company=Asus&chipsetCompany=nvidia&chipset=GTX1660Ti&benchmark=11886&HDMIport=2&DPport=1&VGAport=0&DGport=1&showIMG=gpu/Asus-GTX1660Ti-show.png&smallIMG=gpu/Asus-GTX1660Ti-small.png&gpuStorage=6&price=8,500,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"gpu"
+							],
+							"query": [
+								{
+									"key": "en_name",
+									"value": "Asus TUF-GTX1660Ti"
+								},
+								{
+									"key": "fa_name",
+									"value": "کارت گرافیک ایسوس TUF GeForce GTX1660Ti"
+								},
+								{
+									"key": "company",
+									"value": "Asus"
+								},
+								{
+									"key": "chipsetCompany",
+									"value": "nvidia"
+								},
+								{
+									"key": "chipset",
+									"value": "GTX1660Ti"
+								},
+								{
+									"key": "benchmark",
+									"value": "11886"
+								},
+								{
+									"key": "HDMIport",
+									"value": "2"
+								},
+								{
+									"key": "DPport",
+									"value": "1"
+								},
+								{
+									"key": "VGAport",
+									"value": "0"
+								},
+								{
+									"key": "DGport",
+									"value": "1"
+								},
+								{
+									"key": "showIMG",
+									"value": "gpu/Asus-GTX1660Ti-show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "gpu/Asus-GTX1660Ti-small.png"
+								},
+								{
+									"key": "gpuStorage",
+									"value": "6"
+								},
+								{
+									"key": "price",
+									"value": "8,500,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Case",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/case?en_name=Green Griffin G6&fa_name=کیس گرین مدل G6&company=green&caseForm=M&caseBiggerFormFactorSupport=ATX&fansNum=3&intelTAC=1&showIMG=case/Green-G6-show.png&smallIMG=case/Green-G6-small.png&price=2,840,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"case"
+							],
+							"query": [
+								{
+									"key": "en_name",
+									"value": "Green Griffin G6"
+								},
+								{
+									"key": "fa_name",
+									"value": "کیس گرین مدل G6"
+								},
+								{
+									"key": "company",
+									"value": "green"
+								},
+								{
+									"key": "caseForm",
+									"value": "M"
+								},
+								{
+									"key": "caseBiggerFormFactorSupport",
+									"value": "ATX"
+								},
+								{
+									"key": "fansNum",
+									"value": "3"
+								},
+								{
+									"key": "intelTAC",
+									"value": "1"
+								},
+								{
+									"key": "showIMG",
+									"value": "case/Green-G6-show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "case/Green-G6-small.png"
+								},
+								{
+									"key": "price",
+									"value": "2,840,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Power",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/power?en_name=Green power 580W&fa_name=پاور گرین 580 وات&company=GREEN&watt=580&module=N&form=normal&powerSataConnectorNum=4&smallIMG=power/green-580-small.png&price=3,400,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"power"
+							],
+							"query": [
+								{
+									"key": "en_name",
+									"value": "Green power 580W"
+								},
+								{
+									"key": "fa_name",
+									"value": "پاور گرین 580 وات"
+								},
+								{
+									"key": "company",
+									"value": "GREEN"
+								},
+								{
+									"key": "watt",
+									"value": "580"
+								},
+								{
+									"key": "module",
+									"value": "N"
+								},
+								{
+									"key": "form",
+									"value": "normal"
+								},
+								{
+									"key": "powerSataConnectorNum",
+									"value": "4"
+								},
+								{
+									"key": "smallIMG",
+									"value": "power/green-580-small.png"
+								},
+								{
+									"key": "price",
+									"value": "3,400,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SSD",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/ssd?en_name=samsung 870 1TB&fa_name=اس اس دی ایننترنال سامسونگ مدل 870 1TB&company=samsun&SSDstorage=1000&ssdType=sata&smallIMG=ssd/samsung-870-small.png&price=3,640,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ssd"
+							],
+							"query": [
+								{
+									"key": "en_name",
+									"value": "samsung 870 1TB"
+								},
+								{
+									"key": "fa_name",
+									"value": "اس اس دی ایننترنال سامسونگ مدل 870 1TB"
+								},
+								{
+									"key": "company",
+									"value": "samsun"
+								},
+								{
+									"key": "SSDstorage",
+									"value": "1000"
+								},
+								{
+									"key": "ssdType",
+									"value": "sata"
+								},
+								{
+									"key": "smallIMG",
+									"value": "ssd/samsung-870-small.png"
+								},
+								{
+									"key": "price",
+									"value": "3,640,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HDD",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/hdd?en_name=wd 1TB hard drive&fa_name=هارد اینترال وسترن دیجیتال 1 ترابایت&company=WD&HDDstorage=1000&hddType=blue&hddForm=3.5&smallIMG=hdd/wd-1tb-small.png&price=1,260,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"hdd"
+							],
+							"query": [
+								{
+									"key": "en_name",
+									"value": "wd 1TB hard drive"
+								},
+								{
+									"key": "fa_name",
+									"value": "هارد اینترال وسترن دیجیتال 1 ترابایت"
+								},
+								{
+									"key": "company",
+									"value": "WD"
+								},
+								{
+									"key": "HDDstorage",
+									"value": "1000"
+								},
+								{
+									"key": "hddType",
+									"value": "blue"
+								},
+								{
+									"key": "hddForm",
+									"value": "3.5"
+								},
+								{
+									"key": "smallIMG",
+									"value": "hdd/wd-1tb-small.png"
+								},
+								{
+									"key": "price",
+									"value": "1,260,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RAM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/ram?en_name=Crucial Ram&fa_name=رم کروشیال DDR4 16GB&company=Crucial&ramFrequency=2400&ramType=4&ramAllStorage=16&ramSluts=2&showIMG=ram/crucial-show.png&smallIMG=ram/crucial-small.png&price=2,170,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ram"
+							],
+							"query": [
+								{
+									"key": "en_name",
+									"value": "Crucial Ram"
+								},
+								{
+									"key": "fa_name",
+									"value": "رم کروشیال DDR4 16GB"
+								},
+								{
+									"key": "company",
+									"value": "Crucial"
+								},
+								{
+									"key": "ramFrequency",
+									"value": "2400"
+								},
+								{
+									"key": "ramType",
+									"value": "4"
+								},
+								{
+									"key": "ramAllStorage",
+									"value": "16"
+								},
+								{
+									"key": "ramSluts",
+									"value": "2"
+								},
+								{
+									"key": "showIMG",
+									"value": "ram/crucial-show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "ram/crucial-small.png"
+								},
+								{
+									"key": "price",
+									"value": "2,170,000"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "اون اسم کلید ها خیلییی مهمه اصلا عوضشون نکن و بیشتر از ۴۵ کاراکتر توی استرینگ ها نزار چون ارور میده موقع پوش کردن توی تیبل\n\nیه سری مقدار هم به عنوان نمونه توی value هاش هست"
+		},
+		{
+			"name": "DELETE",
+			"item": [
+				{
+					"name": "CPU",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/cpu/23",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cpu",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MotherBoard",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/motherboard/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motherboard",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GPU",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/gpu/23",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"gpu",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "case",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/case/4",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"case",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RAM",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/ram/2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ram",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SSD",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/ssd/2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ssd",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HDD",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/hdd/23",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"hdd",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Power",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/power/1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"power",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PUT",
+			"item": [
+				{
+					"name": "CPU",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/cpu/?id=5&en_name=Intel Core i5 10400f&fa_name=پردازنده ی اینتل مدل core i5 10400f&company=Intel&cpu_socket=LGA-1200&haveGPU=1&benchmark=12369&showIMG=CPU/i5-10400f-Show.png&smallIMG=CPU/i5-10400f-Small.png&price=3,778,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cpu",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								},
+								{
+									"key": "en_name",
+									"value": "Intel Core i5 10400f"
+								},
+								{
+									"key": "fa_name",
+									"value": "پردازنده ی اینتل مدل core i5 10400f"
+								},
+								{
+									"key": "company",
+									"value": "Intel"
+								},
+								{
+									"key": "cpu_socket",
+									"value": "LGA-1200"
+								},
+								{
+									"key": "haveGPU",
+									"value": "1"
+								},
+								{
+									"key": "benchmark",
+									"value": "12369"
+								},
+								{
+									"key": "showIMG",
+									"value": "CPU/i5-10400f-Show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "CPU/i5-10400f-Small.png"
+								},
+								{
+									"key": "price",
+									"value": "3,778,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "MotherBoard",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/motherboard?id=5&en_name=Asus MotherBoard PRIME H310M-K&fa_name=مادربرد ایسوس مدل PRIME H310M-K&company=Asus&ramSupportCount=32&ramTypes=4&ramFrequency=2133&cpuSocket=LGA-1151&chipset=H310&formFactor=microATX&ramSluts=2&m2Sluts=0&MBsataNum=3&showIMG=motherboard/Asus-H310-Show.png&smallIMG=motherboard/Asus-H310-Small.png&price=1,628,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"motherboard"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								},
+								{
+									"key": "en_name",
+									"value": "Asus MotherBoard PRIME H310M-K"
+								},
+								{
+									"key": "fa_name",
+									"value": "مادربرد ایسوس مدل PRIME H310M-K"
+								},
+								{
+									"key": "company",
+									"value": "Asus"
+								},
+								{
+									"key": "ramSupportCount",
+									"value": "32"
+								},
+								{
+									"key": "ramTypes",
+									"value": "4"
+								},
+								{
+									"key": "ramFrequency",
+									"value": "2133"
+								},
+								{
+									"key": "cpuSocket",
+									"value": "LGA-1151"
+								},
+								{
+									"key": "chipset",
+									"value": "H310"
+								},
+								{
+									"key": "formFactor",
+									"value": "microATX"
+								},
+								{
+									"key": "ramSluts",
+									"value": "2"
+								},
+								{
+									"key": "m2Sluts",
+									"value": "0"
+								},
+								{
+									"key": "MBsataNum",
+									"value": "3"
+								},
+								{
+									"key": "showIMG",
+									"value": "motherboard/Asus-H310-Show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "motherboard/Asus-H310-Small.png"
+								},
+								{
+									"key": "price",
+									"value": "1,628,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GPU",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/gpu?en_name=Asus TUF-GTX1660Ti&id=3&fa_name=کارت گرافیک ایسوس TUF GeForce GTX1660Ti&company=Asus&chipsetCompany=nvidia&chipset=GTX1660Ti&benchmark=11886&HDMIport=2&DPport=1&VGAport=0&DGport=1&showIMG=gpu/Asus-GTX1660Ti-show.png&smallIMG=gpu/Asus-GTX1660Ti-small.png&gpuStorage=6&price=8,500,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"gpu"
+							],
+							"query": [
+								{
+									"key": "en_name",
+									"value": "Asus TUF-GTX1660Ti"
+								},
+								{
+									"key": "id",
+									"value": "3"
+								},
+								{
+									"key": "fa_name",
+									"value": "کارت گرافیک ایسوس TUF GeForce GTX1660Ti"
+								},
+								{
+									"key": "company",
+									"value": "Asus"
+								},
+								{
+									"key": "chipsetCompany",
+									"value": "nvidia"
+								},
+								{
+									"key": "chipset",
+									"value": "GTX1660Ti"
+								},
+								{
+									"key": "benchmark",
+									"value": "11886"
+								},
+								{
+									"key": "HDMIport",
+									"value": "2"
+								},
+								{
+									"key": "DPport",
+									"value": "1"
+								},
+								{
+									"key": "VGAport",
+									"value": "0"
+								},
+								{
+									"key": "DGport",
+									"value": "1"
+								},
+								{
+									"key": "showIMG",
+									"value": "gpu/Asus-GTX1660Ti-show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "gpu/Asus-GTX1660Ti-small.png"
+								},
+								{
+									"key": "gpuStorage",
+									"value": "6"
+								},
+								{
+									"key": "price",
+									"value": "8,500,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Case",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/case?id=4&en_name=Green Griffin G6&fa_name=کیس گرین مدل G6&company=green&caseForm=M&caseBiggerFormFactorSupport=ATX&fansNum=3&intelTAC=1&showIMG=case/Green-G6-show.png&smallIMG=case/Green-G6-small.png&price=2,840,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"case"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								},
+								{
+									"key": "en_name",
+									"value": "Green Griffin G6"
+								},
+								{
+									"key": "fa_name",
+									"value": "کیس گرین مدل G6"
+								},
+								{
+									"key": "company",
+									"value": "green"
+								},
+								{
+									"key": "caseForm",
+									"value": "M"
+								},
+								{
+									"key": "caseBiggerFormFactorSupport",
+									"value": "ATX"
+								},
+								{
+									"key": "fansNum",
+									"value": "3"
+								},
+								{
+									"key": "intelTAC",
+									"value": "1"
+								},
+								{
+									"key": "showIMG",
+									"value": "case/Green-G6-show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "case/Green-G6-small.png"
+								},
+								{
+									"key": "price",
+									"value": "2,840,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ram",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/ram?id=1&en_name=Crucial Ram&fa_name=رم کروشیال DDR4 16GB&company=Crucial&ramFrequency=2400&ramType=4&ramAllStorage=16&ramSluts=2&showIMG=ram/crucial-show.png&smallIMG=ram/crucial-small.png&price=2,170,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ram"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								},
+								{
+									"key": "en_name",
+									"value": "Crucial Ram"
+								},
+								{
+									"key": "fa_name",
+									"value": "رم کروشیال DDR4 16GB"
+								},
+								{
+									"key": "company",
+									"value": "Crucial"
+								},
+								{
+									"key": "ramFrequency",
+									"value": "2400"
+								},
+								{
+									"key": "ramType",
+									"value": "4"
+								},
+								{
+									"key": "ramAllStorage",
+									"value": "16"
+								},
+								{
+									"key": "ramSluts",
+									"value": "2"
+								},
+								{
+									"key": "showIMG",
+									"value": "ram/crucial-show.png"
+								},
+								{
+									"key": "smallIMG",
+									"value": "ram/crucial-small.png"
+								},
+								{
+									"key": "price",
+									"value": "2,170,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SSD",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/ssd?id=1&en_name=samsung 870 1TB&fa_name=اس اس دی ایننترنال سامسونگ مدل 870 1TB&company=samsun&SSDstorage=1000&ssdType=sata&smallIMG=ssd/samsung-870-small.png&price=3,640,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ssd"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								},
+								{
+									"key": "en_name",
+									"value": "samsung 870 1TB"
+								},
+								{
+									"key": "fa_name",
+									"value": "اس اس دی ایننترنال سامسونگ مدل 870 1TB"
+								},
+								{
+									"key": "company",
+									"value": "samsun"
+								},
+								{
+									"key": "SSDstorage",
+									"value": "1000"
+								},
+								{
+									"key": "ssdType",
+									"value": "sata"
+								},
+								{
+									"key": "smallIMG",
+									"value": "ssd/samsung-870-small.png"
+								},
+								{
+									"key": "price",
+									"value": "3,640,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "HDD",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/hdd?id=1&en_name=wd 1TB hard drive&fa_name=هارد اینترال وسترن دیجیتال 1 ترابایت&company=WD&HDDstorage=1000&hddType=blue&hddForm=3.5&smallIMG=hdd/wd-1tb-small.png&price=1,260,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"hdd"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								},
+								{
+									"key": "en_name",
+									"value": "wd 1TB hard drive"
+								},
+								{
+									"key": "fa_name",
+									"value": "هارد اینترال وسترن دیجیتال 1 ترابایت"
+								},
+								{
+									"key": "company",
+									"value": "WD"
+								},
+								{
+									"key": "HDDstorage",
+									"value": "1000"
+								},
+								{
+									"key": "hddType",
+									"value": "blue"
+								},
+								{
+									"key": "hddForm",
+									"value": "3.5"
+								},
+								{
+									"key": "smallIMG",
+									"value": "hdd/wd-1tb-small.png"
+								},
+								{
+									"key": "price",
+									"value": "1,260,000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Power",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/power?id=1&en_name=Green power 580W&fa_name=پاور گرین 580 وات&company=GREEN&watt=580&module=N&form=normal&powerSataConnectorNum=4&smallIMG=power/green-580-small.png&price=3,400,000",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"power"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1"
+								},
+								{
+									"key": "en_name",
+									"value": "Green power 580W"
+								},
+								{
+									"key": "fa_name",
+									"value": "پاور گرین 580 وات"
+								},
+								{
+									"key": "company",
+									"value": "GREEN"
+								},
+								{
+									"key": "watt",
+									"value": "580"
+								},
+								{
+									"key": "module",
+									"value": "N"
+								},
+								{
+									"key": "form",
+									"value": "normal"
+								},
+								{
+									"key": "powerSataConnectorNum",
+									"value": "4"
+								},
+								{
+									"key": "smallIMG",
+									"value": "power/green-580-small.png"
+								},
+								{
+									"key": "price",
+									"value": "3,400,000"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

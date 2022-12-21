@@ -1,0 +1,41 @@
+#cpu-state{
+    display: none;
+}
+
+#motherBoard-state {
+    display: none;
+}
+
+#gpu-state {
+    display: none;
+}
+
+#case-state {
+    display: none;
+}
+
+#ram-state {
+    display: none;
+}
+
+#ssd-state {
+    display: none;
+}
+
+#hdd-state {
+    display: none;
+}
+
+#power-state{
+    display: none;
+}
+
+[why=add-data]{
+    display: none;
+}
+
+
+.category{
+    display: flex;
+    justify-content: center;
+}

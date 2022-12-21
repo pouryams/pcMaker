@@ -1,0 +1,37 @@
+body {
+    background-image: url('../node/PCmaker/images/UI/Login.png');
+    /* height: 100vh; */
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+div{
+    position: absolute;
+    left: 20%;
+    top: 55%;
+}
+
+.get-started {
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: #29892D;
+    border: none;
+}
+
+.admin-panel{
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: #141721;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
